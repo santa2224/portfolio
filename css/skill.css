@@ -73,20 +73,20 @@
   display:block;
   width:0;
   height:100%;
-  background-color:red;
+  background-color:#e68a3c;
   transition:0.3s;
 }
 .skill_list>li:nth-child(1):hover .progress::before{
-  width:100%;
+  width:80%;
 }
 .skill_list>li:nth-child(2):hover .progress::before{
-  width:90%;
+  width:80%;
 }
 .skill_list>li:nth-child(3):hover .progress::before{
   width:70%;
 }
 .skill_list>li:nth-child(4):hover .progress::before{
-  width:95%;
+  width:65%;
 }
 .skill_list>li:nth-child(5):hover .progress::before{
   width:70%;

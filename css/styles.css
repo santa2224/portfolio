@@ -48,8 +48,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 html {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Pretendard-Regular', cursive;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -59,7 +65,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 .kor{
-  font-family: 'Jua', sans-serif;
+  font-family: 'Pretendard-Regular';
 }
 body {
   margin: 0;
@@ -2476,13 +2482,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #d36b4e;
+  border-color: #d36b4e;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #db5833;
+  border-color: #db5833;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -6100,7 +6106,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #d36b4e !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10020,7 +10026,7 @@ hr.light {
 }
 
 .btn {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Pretendard-Regular';
 }
 
 .btn-xl {
@@ -10033,7 +10039,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 19rem 0;
 }
 
 #mainNav {
@@ -10042,13 +10048,13 @@ hr.light {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Pretendard-Regular';
   font-weight: 700;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Pretendard-Regular';
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
@@ -10172,4 +10178,28 @@ header.masthead h1 {
 .section-s{
   text-align: center;
   font-size: 16px;
+}
+.btn_gotop {
+	display:none;
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	z-index:999;
+	border:1px solid #ccc;
+	outline:none;
+	background-color:white;
+	color:#333;
+	cursor:pointer;
+	padding:13px 20px;
+	border-radius:100%;
+}
+.d-block, .phone, .contact_title{
+  font-family: 'Pretendard-Regular';
+}
+.d-block{
+  text-decoration: none;
+  color: black;
+}
+.d-block:hover{
+  text-decoration: none;
 }
